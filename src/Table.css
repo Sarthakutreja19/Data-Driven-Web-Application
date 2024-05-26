@@ -1,0 +1,17 @@
+.pagination{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    cursor: pointer;
+}
+#table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px; 
+    margin-top:70px;
+}
+
+#table th, #table td {
+    padding: 12px 15px; 
+}

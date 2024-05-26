@@ -1,0 +1,25 @@
+body{
+  background-color: brown;
+  color: white;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+#icon-upload{
+  vertical-align:middle;
+}
+#file-input{
+  display: none
+}
+.input-div{
+  padding: 15px;
+  cursor: pointer;
+}
+#upload-label{
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: bold;
+}
