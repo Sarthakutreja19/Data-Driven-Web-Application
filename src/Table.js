@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
 import './Table.css'; 
 
-const itemsPerPage = 20;
+const itemsPerPage = 10;
 
 export default function Table (props) {
     const {data}=props;
