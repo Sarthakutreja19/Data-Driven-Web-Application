@@ -7,14 +7,12 @@ const itemsPerPage = 10;
 export default function Table (props) {
     const {data}=props;
     const [currentPage, setCurrentPage] = useState(0);
-    const [row, setRow] =  useState(null);
     const handlePageClick = ({ selected }) => {
         setCurrentPage(selected);
     };
 
     const handleClick = (selectedRow)=>{
-        setRow(selectedRow);
-        const subscription = 2+row?.CreditLines+row?.CreditScore
+        const subscription = 2+selectedRow?.CreditLines+selectedRow?.CreditScore ;
         alert(subscription+' Rs')
     }
   
